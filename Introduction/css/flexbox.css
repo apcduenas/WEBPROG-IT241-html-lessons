@@ -7,7 +7,7 @@ h1, h2 {
     text-align: center;
 }
 
-/* Info Grid */
+
 .info-grid {
     display: flex;
     gap: 20px;
@@ -26,7 +26,7 @@ h1, h2 {
     text-align: center;
 }
 
-/* Picture Gallery */
+
 .gallery {
     display: flex;
     gap: 20px;
