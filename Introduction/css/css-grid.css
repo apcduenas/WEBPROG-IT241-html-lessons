@@ -4,7 +4,7 @@
 
   grid-template-columns: 1fr 1fr 1fr;
 
-  background-color: dodgerblue;
+  background-color: rgb(156, 0, 10);
 
   padding: 5px;
 
@@ -16,7 +16,7 @@
 
   background-color: #070000;
 
-  color: #3c01ff;
+  color: #000000;
 
   padding: 10px;
 
