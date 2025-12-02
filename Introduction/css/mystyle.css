@@ -1,12 +1,13 @@
 /* Body background */
 body {
-    background: url("https://images.unsplash.com/photo-1508264165352-258a6c47a7a1?auto=format&fit=crop&w=1350&q=80");
+    background: url("https://images.unsplash.com/photo-1505666287802-931dc83948e0?auto=format&fit=crop&w=1350&q=80");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     color: #fff;
     font-family: Arial, sans-serif;
 }
+
 
 /* Page title */
 h1 {
