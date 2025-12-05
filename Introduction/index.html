@@ -34,6 +34,13 @@
             font-size: 1.5rem;
             color: #ffa64d;
         }
+        /* Tinanggal ang pangkulay sa About Me section para mas maging malinis at mas madaling basahin */
+        .about-me-section .container-fluid {
+            margin-top: 0 !important;
+        }
+        .about-me-section .row {
+            display: none; /* Tinago ang dating '1 of 2', '1 of 4' na mga box */
+        }
     </style>
 </head>
 <body>
@@ -41,7 +48,29 @@
 <div class="container content-box">
     <h1 class="text-center">Personal Profile Web Page</h1>
 
-    <div class="section-title">About Me</div>
+    <div class="section-title">Picture Gallery</div>
+    <img src="https://as-prod.asyncgw.teams.microsoft.com/v1/9f8d3607-32c4-4e7f-a4db-9861ebf737cc/objects/0-ea-d10-e0083b1ba367f66b9d8974586fabe49f/views/imgpsh_fullsize" width="300">
+</div>
+
+<div class="container mt-5 content-box">
+    <h2 class="text-center">Picture Gallery</h2>
+    <div class="row g-4 mt-2">
+        <div class="col-md-4">
+            <img src="https://m.media-amazon.com/images/M/MV5BN2FmZGVlNTgtYTllNC00YmUzLTk5YmUtNWNhMzk3ZmE2NmQ0XkEyXkFqcGc@._V1_.jpg" class="img-fluid rounded" />
+        </div>
+        <div class="col-md-4">
+            <img src="https://images.alphacoders.com/619/619885.jpg" class="img-fluid rounded" />
+        </div>
+        <div class="col-md-4">
+            <img src="https://wallpaper-house.com/data/out/9/wallpaper2you_340001.jpg" class="img-fluid rounded" />
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5 content-box about-me-section">
+    <h2 class="text-center">About Me</h2>
+
+    <div class="section-title">Personal Details</div>
     <p>Asia Pacific College<br>2nd Year Information Technology Student</p>
 
     <div class="section-title">IT Experience</div>
@@ -56,46 +85,9 @@
     <div class="section-title">Goals in Life / Dream</div>
     <p>I want to finish my studies and reach my dreams so I can repay my parents for their sacrifices.</p>
 
-    <div class="section-title">Picture Gallery</div>
-    <img src="https://as-prod.asyncgw.teams.microsoft.com/v1/9f8d3607-32c4-4e7f-a4db-9861ebf737cc/objects/0-ea-d10-e0083b1ba367f66b9d8974586fabe49f/views/imgpsh_fullsize" width="300">
-</div>
-
-
-
-<!-- Ghost Rider Styled Gallery & Layout Section -->
-<div class="container mt-5 content-box">
-    <h2 class="text-center">Picture Gallery</h2>
-    <div class="row g-4 mt-2">
-        <div class="col-md-4">
-            <img src="https://m.media-amazon.com/images/M/MV5BN2FmZGVlNTgtYTllNC00YmUzLTk5YmUtNWNhMzk3ZmE2NmQ0XkEyXkFqcGc@._V1_.jpg" class="img-fluid rounded" />
-        </div>
-        <div class="col-md-4">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaakbapMdg-WRHOo35_Ym4aKN51IadNDwQkA&s" class="img-fluid rounded" />
-        </div>
-        <div class="col-md-4">
-            <img src="https://wallpaper-house.com/data/out/9/wallpaper2you_340001.jpg" class="img-fluid rounded" />
-        </div>
-    </div>
-</div>
-
-<div class="container mt-5 content-box">
-    <h2 class="text-center">Gallery</h2>
-    <p class="mt-2"></p>
-
     <div class="container-fluid">
         <div class="row text-center">
-            <div class="col-md p-2" style="background:rgba(255,100,0,0.7); color:black; font-weight:bold;">1 of 2</div>
-            <div class="col-md p-2" style="background:rgba(0,0,0,0.8); color:#ffa64d; font-weight:bold;">2 of 2</div>
-        </div>
-    </div>
-
-    <div class="container-fluid mt-3">
-        <div class="row text-center">
-            <div class="col-md p-2" style="background:rgba(255,100,0,0.7); color:black; font-weight:bold;">1 of 4</div>
-            <div class="col-md p-2" style="background:rgba(0,0,0,0.8); color:#ffa64d; font-weight:bold;">2 of 4</div>
-            <div class="col-md p-2" style="background:rgba(255,100,0,0.7); color:black; font-weight:bold;">3 of 4</div>
-            <div class="col-md p-2" style="background:rgba(0,0,0,0.8); color:#ffa64d; font-weight:bold;">4 of 4</div>
-        </div>
+             </div>
     </div>
 </div>
 
